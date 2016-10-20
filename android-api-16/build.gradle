@@ -18,4 +18,5 @@ dependencies {
     testCompile "junit:junit:4.10"
     testCompile "org.assertj:assertj-core:1.7.0"
     testCompile "org.robolectric:robolectric:${robolectricVersion}"
+    testCompile "com.nhaarman:mockito-kotlin:0.5.1"
 }
