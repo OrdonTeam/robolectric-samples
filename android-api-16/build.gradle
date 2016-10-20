@@ -1,4 +1,18 @@
 apply plugin: "com.android.application"
+apply plugin: 'kotlin-android'
+
+
+buildscript {
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.4"
+    }
+}
+
 
 android {
     compileSdkVersion 16
